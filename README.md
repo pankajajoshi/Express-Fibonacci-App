@@ -23,7 +23,7 @@
 
 <h2>Approach Used to Solve Fibonnaci</h2>
 
-<p>he server.js file is responsible for starting the Express server and defining the routes. It imports the fibonacciRouter from the fibonacci.js file and mounts it under the /fibonacci path using app.use('/fibonacci', fibonacciRouter).</p>
+<p>The server.js file is responsible for starting the Express server and defining the routes. It imports the fibonacciRouter from the fibonacci.js file and mounts it under the /fibonacci path using app.use('/fibonacci', fibonacciRouter).</p>
 
 <p>The fibonacci.js file contains the logic for checking if a number is a Fibonacci number. It defines a router using express.Router() and adds the /fibonacci/:number route. The functionality for checking if a number is a Fibonacci number is implemented in the isPerfectSquare() and isFibonacciNumber() functions.</p>
 
